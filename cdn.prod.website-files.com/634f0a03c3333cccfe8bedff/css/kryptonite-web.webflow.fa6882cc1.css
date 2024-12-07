@@ -3331,8 +3331,6 @@ figcaption {
     justify-content: flex-start;
     align-items: center;
     margin-top: 8.7rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
     padding-top: 27rem;
     padding-bottom: 8rem;
     display: flex;
@@ -6792,8 +6790,6 @@ figcaption {
     }
     .section.hp-hero-section {
         margin-top: 1.6rem;
-        margin-left: 1.6rem;
-        margin-right: 1.6rem;
         padding-top: 18.9rem;
         padding-bottom: 5.6rem;
     }
