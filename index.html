@@ -4,11 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Redirecting to the main page">
+    <title>Redirecting...</title>
+    <script>
+        // Automatically redirect to the main index.html
+        window.location.href = "www.kryptonite.agency/index.html";
+    </script>
+    <style>
+        /* Prevent any visible flicker during redirection */
+        
+        body {
+            margin: 0;
+            padding: 0;
+            display: none;
+        }
+    </style>
 </head>
 
 <body>
-    hello
+    <!-- Fallback content if JavaScript is disabled -->
+    <noscript>
+        <meta http-equiv="refresh" content="0; URL=www.kryptonite.agency/index.html">
+    </noscript>
 </body>
 
 </html>
